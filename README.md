@@ -66,6 +66,7 @@ Now whenever a listed curator types '!up'(or the flag you chose) inside a commen
 
 ---
 Outputs:
+
 ![image.png](https://ipfs.busy.org/ipfs/QmbZAwd9MNBU3mpTHfKmBKMuuG13TJhvpNpwxoxYhDXrBK)
 
 ![image.png](https://ipfs.busy.org/ipfs/QmZPaULMLoLsJf3VsJiSeeJasFV8vMYmuMrVo6MwBAvwLv)

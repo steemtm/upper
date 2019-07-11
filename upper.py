@@ -30,7 +30,7 @@ with open('curators', mode='r') as file:
     leitor = csv.reader(file)
     for rows in leitor:
         v = rows[0]
-        autores.append(v)
+        curators.append(v)
         
 # Empty list to receive logs
 log_time = []

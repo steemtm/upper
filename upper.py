@@ -45,7 +45,7 @@ with open('log', mode='r') as inlog:
         
         
 # Set here your flag command without the '!'        
-flag = 'flag_command'     
+flag = 'up'     
 
 
 # Blockchain Stream function with filters

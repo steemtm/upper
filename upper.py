@@ -78,8 +78,8 @@ def action(a_action, p_action, c_action):
     comment = str(f'Congrats, @{a_action}!\nYour post received an Upper from @{c_action}!')
     try:
         s.commit.vote(target, weight=w, account=acc)
-        s.commit.post(title='', body=comentario, author=acc, reply_identifier=target)
-        s.commit.resteem(alvo, account=acc)
+        s.commit.post(title='', body=comment, author=acc, reply_identifier=target)
+        s.commit.resteem(target, account=acc)
         print(f'\33[32m{da} {dh}: {target} OK!')
         log.append(p_action)
         log_time.append(f'{da} {dh}: {target}')

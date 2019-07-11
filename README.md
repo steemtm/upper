@@ -1,25 +1,21 @@
+<div class="text-justify">
 Upper
 ---
 reads every new comment made by authors in a list and searches for the flag(!command) who will trigger actions on the **main post**(e.g. upvote, comment, and resteem)
 
-Introduction
----
-A steemian friend asks me to help him with his project, a curation project with several curators reading and approving posts. He needs to automate tasks (upvote, comment, and resteem). As it may be useful to others I decided to open source and post it.
-
-Upper is a simple python script following basic instructions from the steem-python official library, plus a few things I've added. 
-
 
 ---
 
-**Requirements**
- - Python 3.6+
+**You will need**
+- Python 3.6+
 - Steem-Python
 - Regex
 - Linux (Ubuntu)
+ 
 ---
 
 **Install**
-*Always best to create a venv or use idle like pycharm*
+*Always best to create a venv or use ide like pycharm*
 
 Installing steem-python and regex:
 ```
@@ -71,7 +67,10 @@ Now whenever a listed curator types '!up'(or the flag you chose) inside a commen
 
 ---
 Outputs:
+![image.png](https://ipfs.busy.org/ipfs/QmbZAwd9MNBU3mpTHfKmBKMuuG13TJhvpNpwxoxYhDXrBK)
 
+![image.png](https://ipfs.busy.org/ipfs/QmZPaULMLoLsJf3VsJiSeeJasFV8vMYmuMrVo6MwBAvwLv)
+![image.png](https://ipfs.busy.org/ipfs/QmTRfdKL5wdvfRCgVFwHZaXbNuMEnzBKWQMwVPSZMp7Brm)
 
 ---
 
@@ -83,5 +82,3 @@ Outputs:
 - A log file with date and time who keeps all past data (you can exit, run again and will never lose track)
 - Handles multiples action threads in parallel with the stream (you won't miss a post)
 - Will never perform the same actions on the same **main post**
-
------------------
